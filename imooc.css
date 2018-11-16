@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#body{
+	width: 100%;
+	height: 100%;
+	background-image: url(img/hehe1.png);
+}
+.content{
+	overflow: hidden;
+	margin: auto auto;
+	height:800px;
+	border-radius: 15px;
+}
+.logn_in{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 200px;
+	top: 50px;
+}
+.logn_in:hover {
+	border-bottom: 2px solid red;
+}
+#logn_in{
+	cursor: pointer;
+	line-height: 25px;
+	text-align: center;
+	font-size: 30px;
+}
+.register{
+
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 70px;
+	top: 50px;
+}
+.register:hover {
+	border-bottom: 2px solid red;
+}
+#register{
+	cursor: pointer;
+	line-height: 25px;
+	text-align: center;
+	font-size: 30px;
+}
+#tmp1{
+	z-index: 2;
+	display: none;
+	margin: auto auto;
+	margin-top: 200px;
+	box-shadow: 10px 10px 5px gray;
+	width: 400px;
+	height: 330px;
+	background-color: white;
+	border-radius: 20px;
+}
+#contain{
+	
+	position: absolute;
+	height: 400px;
+	z-index: 1000;
+	width: 280px;
+	margin: auto auto;
+
+}
+.p1{
+	width: 100px;
+	position: relative;
+	left: 20px;
+	top: 30px;
+	font-size: 18px;
+}
+#account{
+    margin-left: 120px;
+	width: 250px;
+	height:40px;
+	border-radius: 5px;
+
+}
+#password{
+	margin-left: 120px;
+	width:250px;
+	height:40px;
+	border-radius: 5px;
+}
+#yanzhengma{
+	margin-left: 120px;
+	float: left;
+	width: 160px;
+	height:40px;
+	border-radius: 5px;
+}
+img{
+	width: 70px;
+	height: 40px;
+	position: absolute;
+    left: 300px;
+}
+#ps{
+	position: relative;
+    top: 22px;
+    left: 20px;
+}
+.nologn{
+	cursor: pointer;
+	float: left;
+	width: 75px;
+	position: relative;
+	top: -20px;
+	left: 220px;
+	border-right: 1px solid gray;
+}
+.ps{
+	position: relative;
+	left: 40px;
+}
+.find{
+	cursor: pointer;
+	position: relative;
+	left: 230px;
+	top: -20px;
+}
+.btn{
+	margin-left: 40px;
+	cursor: pointer;
+	width: 320px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: red;
+}
+.btn:hover{
+	background-color: orangered;
+}
+.btn p{
+	padding-top:10px ;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.massage{
+	margin-top: 15px;
+	width: 120px;
+	border-right: 1px solid gray;
+}
+.massage p{
+	color: red;
+}
+#tmp2{
+	display: none;
+	margin: auto auto;
+	margin-top: 200px;
+	box-shadow: 10px 10px 5px gray;
+	width: 400px;
+	height: 330px;
+	background-color: white;
+	border-radius: 20px;
+}
+.contain2{
+	position: absolute;
+	z-index: 1;
+	width: 280px;
+	margin: auto auto;
+}
+.p2{
+	width: 100px;
+	position: relative;
+	left: 20px;
+	top: 50px;
+	font-size: 18px;
+}
+#phonenum{
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 250px;
+	height:40px;
+	border-radius: 5px;
+}
+#yanzhengma2{
+	margin-top: 20px;
+    margin-left: 100px;
+	width: 250px;
+	height:40px;
+	border-radius: 5px;
+}
+#ps2{
+	position: relative;
+    top: 22px;
+    margin-left: 30px;
+}
+.ps{
+	margin-left: 20px;
+}
+.btn2{
+	margin-left: 30px;
+	margin-top: 25px;
+	cursor: pointer;
+	width: 330px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: red;
+}
+.btn2 p{
+	padding-top:10px ;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.other{
+	margin-top: 20px;
+}
+
+.tmp {
+	position: relative;
+	width: 280px;
+	margin: auto;
+	margin-top: 80px;
+}
+
