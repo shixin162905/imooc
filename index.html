@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" href="imooc.css" rel="stylesheet" />
+		<title></title>
+	</head>
+	<body>
+    <div id="body">
+		<div class="content">
+			<div class="logn_in" onclick="show()"><p id="logn_in">登录</p></div>
+			<div class="register"  onclick="show2()"><p id="register">注册</p></div>
+			<div id="tmp1">
+				<div id="contain">
+					<form id="form" action="http://tech.sky31.top/login.php" method="post">
+						<p class="p1">user name:</p>
+					<input placeholder=" 请输入登录手机号/邮箱" name="username" id="account" autocomplete="off"/>
+					<p class="p1">password:</p>
+						<input type="password" placeholder=" 请输入密码" name="password" id="password" autocomplete="off"/>
+						<p class="p1">captcha:</p>
+						<input placeholder=" 请输入验证码" id="yanzhengma" autocomplete="off"/>
+						
+						<img src="http://tech.sky31.top/code.php" />
+						<input type="checkbox" name="code" id="ps" checked="checked">
+						<p class="ps">七天内自动登录</p>
+					</form>
+					<div class="nologn"><p>无法登陆</p></div>
+					<div class="find"><p>找回密码</p></div>
+					<div class="btn" onclick="login()"><p>登录</p></div>
+					</div>
+				</div>
+				<div id="tmp2">
+				<div class="contain2">
+					<form>
+						<p class="p2">phone:</p>
+						<input placeholder=" 请输入手机号" id="phonenum" autocomplete="off"/>
+						<p class="p2">captcha:</p>
+						<input placeholder=" 请输入验证码" id="yanzhengma2" autocomplete="off"/>
+						<input type="checkbox" id="ps2">
+						<p class="ps">同意《绝地求生手游协议》</p>
+					</form>
+					<div class="btn2"><p>注册</p></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="imooc.js"></script>
+		</div>
+	</body>
+</html>
